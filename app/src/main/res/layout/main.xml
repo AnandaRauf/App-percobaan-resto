@@ -1,0 +1,99 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Selamat datang di Kulibet Resto"
+			android:textSize="20sp"
+			android:textColor="#000000"/>
+		<TextView
+			android:id="@+id/emailadmin"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Email Admin :"
+			android:textSize="14sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/email_admin_edittxt"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Masukkan Email Admin"
+			android:textColorHint="#607D8B"/>
+		<TextView
+			android:id="@+id/passwordadmin"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Password Admin :"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/paswordadmin_edittxt"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Masukkan password Admin"
+			android:textColorHint="#607D8B"
+			android:inputType="textPassword"/>
+		<Button
+			android:id="@+id/masuk"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Masuk"
+			android:textSize="14sp"
+			android:textColor="#000000"/>
+		<Button
+			android:id="@+id/daftar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Daftar"
+			android:textSize="14sp"
+			android:textColor="#000000"/>
+		<Button
+			android:id="@+id/lupapassword"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Lupa password"
+			android:textSize="14sp"
+			android:textColor="#000000"/>
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Powered by PT.MRVDevelopment"
+			android:textSize="10sp"
+			android:textColor="#000000"/>
+		<TextView
+			android:id="@+id/textview4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="©2018"
+			android:textSize="10sp"
+			android:textColor="#000000"/>
+	</LinearLayout>
+</LinearLayout>

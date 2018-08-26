@@ -1,0 +1,176 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<Button
+			android:id="@+id/halamanutama"
+			android:layout_width="wrap_content"
+			android:layout_height="11dp"
+			android:padding="8dp"
+			android:background="@drawable/ic_home_black"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<TextView
+			android:id="@+id/namamakanan"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:text="Nama Makanan :"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/masukkannamamakanan"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Masukkan nama makanan"
+			android:textColorHint="#607D8B"/>
+		<TextView
+			android:id="@+id/namaminuman"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:text="Nama Minuman :"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/masukkannamaminuman"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Masukkan nama minuman"
+			android:textColorHint="#607D8B"/>
+		<TextView
+			android:id="@+id/hargamakanan"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:text="Harga makanan :"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/harga_makanan"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Harga makanan"
+			android:textColorHint="#607D8B"/>
+		<TextView
+			android:id="@+id/hargaminuman"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:text="Harga minuman :"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/harga_minuman"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Harga minuman"
+			android:textColorHint="#607D8B"/>
+		<TextView
+			android:id="@+id/jmlhporsimakanan"
+			android:layout_width="wrap_content"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:text="Jumlah porsi makanan :"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/jumlahporsimakanan"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Masukkan jumlah porsi makanan"
+			android:textColorHint="#607D8B"/>
+		<TextView
+			android:id="@+id/jmlhporsiminuman"
+			android:layout_width="wrap_content"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:text="Jumlah porsi minuman :"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/jumlahporsiminuman"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Masukkan jumlah porsi minuman"
+			android:textColorHint="#607D8B"/>
+		<TextView
+			android:id="@+id/totalpembayaran"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:text="Total pembayaran :"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/total_pembayaran"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Total pembayaran"
+			android:textColorHint="#607D8B"/>
+		<TextView
+			android:id="@+id/uangpembeli"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:text="Uang pembeli :"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<EditText
+			android:id="@+id/uang_pembeli"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Uang pembeli"
+			android:textColorHint="#607D8B"/>
+		<Button
+			android:id="@+id/print"
+			android:layout_width="match_parent"
+			android:layout_height="34dp"
+			android:padding="8dp"
+			android:text="Print"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<Button
+			android:id="@+id/gudang"
+			android:layout_width="wrap_content"
+			android:layout_height="30dp"
+			android:padding="8dp"
+			android:text="Gudang stok barang"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+	</LinearLayout>
+</LinearLayout>
